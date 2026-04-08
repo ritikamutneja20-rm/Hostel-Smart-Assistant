@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin Leaves</title>
+
+<style>
+body {
+    font-family: Arial;
+    background-color: #667eea;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+table {
+    margin: auto;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+td, th {
+    padding: 10px;
+}
+</style>
+
+</head>
+<body>
+
+<h2>Leave Requests</h2>
+
+<table border="1">
+<tr>
+<th>Email</th>
+<th>Reason</th>
+<th>Status</th>
+<th>Action</th>
+</tr>
+
+{% for c in data %}
+<tr>
+<td>{{c[1]}}</td>
+<td>{{c[2]}}</td>
+<td>{{c[3]}}</td>
+<td>
+<a href="/approve_leave/{{c[0]}}">Approve</a> |
+<a href="/reject_leave/{{c[0]}}">Reject</a>
+</td>
+</tr>
+{% endfor %}
+
+</table>
+
+</body>
+</html>

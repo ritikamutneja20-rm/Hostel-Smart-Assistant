@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Complaints</title>
+
+<style>
+body {
+    font-family: Arial;
+    background-color: #667eea;
+}
+
+/* Title */
+h2 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+/* Card */
+.card {
+    background: white;
+    margin: 15px auto;
+    padding: 15px;
+    width: 60%;
+    border-radius: 10px;
+}
+
+/* Status */
+.pending {
+    color: red;
+}
+
+.resolved {
+    color: green;
+}
+
+/* Button */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+</style>
+
+</head>
+<body>
+
+<h2>📋 My Complaints</h2>
+
+{% for c in data %}
+<div class="card">
+    <p><b>Complaint:</b> {{c[0]}}</p>
+
+    {% if c[1] == "Pending" %}
+        <p class="pending"><b>Status:</b> Pending</p>
+    {% else %}
+        <p class="resolved"><b>Status:</b> Resolved</p>
+    {% endif %}
+</div>
+{% endfor %}
+
+<a href="/dashboard">⬅ Back</a>
+
+</body>
+</html>

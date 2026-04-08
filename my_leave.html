@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Leaves</title>
+
+<style>
+body {
+    background-color: #667eea;
+    font-family: Arial;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+.card {
+    background: white;
+    width: 60%;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.pending {
+    color: red;
+}
+
+.approved {
+    color: green;
+}
+
+.rejected {
+    color: orange;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+</style>
+
+</head>
+<body>
+
+<h2>My Leaves</h2>
+
+{% for c in data %}
+<div class="card">
+<p><b>Reason:</b> {{c[0]}}</p>
+
+{% if c[1] == "Pending" %}
+<p class="pending"><b>Status:</b> Pending</p>
+{% elif c[1] == "Approved" %}
+<p class="approved"><b>Status:</b> Approved</p>
+{% else %}
+<p class="rejected"><b>Status:</b> Rejected</p>
+{% endif %}
+
+</div>
+{% endfor %}
+
+<a href="/dashboard">⬅ Back</a>
+
+</body>
+</html>

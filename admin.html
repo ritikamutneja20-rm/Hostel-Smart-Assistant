@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin Panel</title>
+
+<style>
+body {
+    font-family: Arial;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+}
+
+table {
+    margin: auto;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+th, td {
+    padding: 10px;
+}
+</style>
+
+</head>
+<body>
+
+<h2 style="text-align:center;">Admin Panel</h2>
+
+<a href="/admin_leaves">
+<button style="margin:10px; padding:10px; background:#667eea; color:white; border:none; border-radius:8px;">
+📋 View Leave Requests
+</button>
+</a>
+
+<table border="1">
+<tr>
+<th>Email</th>
+<th>Complaint</th>
+<th>Status</th>
+<th>Action</th>
+</tr>
+
+{% for c in data %}
+<tr>
+<td>{{c[1]}}</td>
+<td>{{c[2]}}</td>
+<td>{{c[3]}}</td>
+<td>
+<a href="/update/{{c[0]}}">Resolve</a>
+</td>
+</tr>
+{% endfor %}
+
+</table>
+
+</body>
+</html>

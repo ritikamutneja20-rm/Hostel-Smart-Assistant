@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Apply Leave</title>
+
+<style>
+body {
+    font-family: Arial;
+    background-color: #667eea;
+}
+
+.container {
+    background: white;
+    width: 350px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+textarea {
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    background: #667eea;
+    color: white;
+    border: none;
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+<h2>Apply Leave</h2>
+
+<form method="POST" action="/apply_leave">
+<textarea name="reason" placeholder="Enter reason..." required></textarea>
+<button>Submit</button>
+</form>
+
+<a href="/dashboard">Back</a>
+</div>
+
+</body>
+</html>
