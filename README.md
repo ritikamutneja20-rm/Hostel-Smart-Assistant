@@ -111,20 +111,20 @@ Hostel-Smart-Assistant/
 
 🔐 Login Page
 
-"login" (<img width="1862" height="845" alt="login png" src="https://github.com/user-attachments/assets/54c1d36e-35b3-4d5e-96e6-9fef46a17b26" />)
+"login" <img width="1862" height="845" alt="login png" src="https://github.com/user-attachments/assets/54c1d36e-35b3-4d5e-96e6-9fef46a17b26" />
 
 📝 Register Page
 
-"Register" (<img width="1842" height="883" alt="register png" src="https://github.com/user-attachments/assets/6e03966a-3590-49ca-bb97-a8839d220f58" />)
+"Register" <img width="1842" height="883" alt="register png" src="https://github.com/user-attachments/assets/6e03966a-3590-49ca-bb97-a8839d220f58" />
 
 📊 User Dashboard
 
-"Dashboard" (<img width="1709" height="769" alt="dashboard png" src="https://github.com/user-attachments/assets/5ccf6f13-cb30-43f7-8a0d-fb09f6e30059" />)
+"Dashboard" <img width="1709" height="769" alt="dashboard png" src="https://github.com/user-attachments/assets/5ccf6f13-cb30-43f7-8a0d-fb09f6e30059" />
 
 🗣 Complaint Page
 
-"Complaint" [(<img width="1798" height="829" alt="complaints png" src="https://github.com/user-attachments/assets/d21d5018-d164-457c-9568-8cb53dbb2a2b" />)
-(<img width="1565" height="693" alt="complaints png (2)" src="https://github.com/user-attachments/assets/d5ce789d-c6c7-406d-b479-711fe1d0d01b" />)]
+"Complaint" <img width="1798" height="829" alt="complaints png" src="https://github.com/user-attachments/assets/d21d5018-d164-457c-9568-8cb53dbb2a2b" />
+<img width="1565" height="693" alt="complaints png (2)" src="https://github.com/user-attachments/assets/d5ce789d-c6c7-406d-b479-711fe1d0d01b" />
 
 🏖 Leave Application
 
@@ -133,8 +133,8 @@ Hostel-Smart-Assistant/
 
 🛠 Admin Panel
 
-"Admin" [(<img width="1894" height="868" alt="admin png" src="https://github.com/user-attachments/assets/cf65d3be-18f0-4661-90d0-796a7b54cab2" />)
-(<img width="1748" height="719" alt="admin png (2)" src="https://github.com/user-attachments/assets/0c6c74a7-7cf3-450b-a6b1-bcd99d50c227" />)]
+"Admin" <img width="1894" height="868" alt="admin png" src="https://github.com/user-attachments/assets/cf65d3be-18f0-4661-90d0-796a7b54cab2" />
+<img width="1748" height="719" alt="admin png (2)" src="https://github.com/user-attachments/assets/0c6c74a7-7cf3-450b-a6b1-bcd99d50c227" />
 
 ---
 
